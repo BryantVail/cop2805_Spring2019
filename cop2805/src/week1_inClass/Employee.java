@@ -39,6 +39,10 @@ public class Employee {
 		return this.name + " (" + this.position + ", " + salary + " )" + "[ " + this.team + " ]";
 	}
 	
+	/**
+	 * @return print the tree of subordinates/team members from top to bottom 
+	 * @
+	 */
 	public void printTree() {
 		if(this.team != null) {
 			for(int i = 0; i<team.size(); i++) {
