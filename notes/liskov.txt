@@ -1,0 +1,1 @@
+Substitutability is how it can be described. If a certain parameter can be passed into a function, then any subtype should too be able to be handled. 
